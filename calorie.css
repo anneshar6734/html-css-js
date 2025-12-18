@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;   
+}
+
+
+body{
+  background-color: white;
+  color: lightseagreen;
+}
+body.dark-mode{
+  background-color: black;
+  color: lightblue
+}
+
+#entry{
+    display: inline;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+#container {
+  width: 90%;
+  max-width: 680px;
+}
+label,legend {
+  font-weight: bold;
+}
+h1,p,button,h2,h3,legend{
+  text-align: center;
+}
+.hidden {
+  display: none; /* This hides the element */
+}
+
+#sub-btn{
+  text-align: center;
+  margin: 1em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+fieldset{
+  margin: 2em;
+  padding: 1rem;
+}
