@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: aqua;
+}
+
+h1,h2,p,div{
+    text-align: center;
+}
+
+.progress{
+    width: 100%;
+    background-color:gray;
+    border-radius: 10px;
+    height: 20px;
+    color: aqua;
+}

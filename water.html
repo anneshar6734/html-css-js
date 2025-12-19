@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water-tracker</title>
+    <link rel="stylesheet" href="water.css">
+</head>
+<body>
+    <h1>Water Tracker: Mini-v0</h1>
+    <p>
+        <button id="add">[+] Add Glass</button> 
+        <button id="remove">[-] Remove Glass</button>
+        <button id="reset"> Reset </button>
+    </p>
+    <h2>Today</h2>
+    
+    <div class="progress">
+        <label for="progress">Glass: </label>
+        <progress id="progress-bar" value="0" max="8"></progress>
+        <label id="progress-num" for="progress"> 0/8 </label>
+    </div>
+
+    
+    <script src="water.js"></script>
+</body>
+</html>
